@@ -1,0 +1,37 @@
+{
+  "name": "email-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp serve --path"
+  },
+  "keywords": [
+    "MJML",
+    "BrowserSync",
+    "Livereload",
+    "email"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-mjml": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "mjml": "^4.5.1",
+    "mjml-table": "^4.5.1",
+    "vue": "^2.6.11",
+    "vue-server-renderer": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/register": "^7.7.4"
+  }
+}
