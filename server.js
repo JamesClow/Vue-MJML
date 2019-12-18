@@ -41,25 +41,6 @@ SERVER.post('*', function(req, res){ // Collect JSON data
         res.status(500).end(response)
         return
       })
-      // if(FS.lstatSync(file_path).isFile()){
-      //   var app = new VUE({
-      //     data: processed_data.data,
-      //     template: FS.readFileSync(file_path, 'utf-8')
-      //   })
-      //   VUE_RENDERER.renderToString(app, (err, vue_render)=>{
-      //     if(err){
-      //       res.status(500).end('Internal Server Error')
-      //       return
-      //     }else{
-      //       var mjml_render = MJML(vue_render);
-      //       if(mjml_render.html){
-      //         res.send(mjml_render.html);
-      //       }
-      //     }
-      //   })
-      // }else{
-      //   res.status(400).end('Could not find a template for: '+project_name+'/'+file_name)
-      // }
     }catch(e){
       res.status(500).end('Internal Server Error');
     }
