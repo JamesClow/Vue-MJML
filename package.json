@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "gulp": "^4.0.2",
-    "gulp-mjml": "^3.0.0",
+    "gulp-mjml": "^4.0.2",
     "gulp-plumber": "^1.2.1",
     "mjml": "^4.5.1",
     "mjml-table": "^4.5.1",
